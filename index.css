@@ -64,3 +64,16 @@
 	margin-top: 10%;
 	margin-left: 9%;
 	}
+.editorials{
+	margin-left: 2%;
+}
+.imgsize{
+	width: 430px;
+	height: 430px;
+	object-fit: cover;
+	filter:brightness(55%);
+	color: white;
+}
+.overtext{
+	position: absolute
+}
