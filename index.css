@@ -9,6 +9,7 @@ body{
 	margin-bottom: -10px;
 	width: 100%;
 	font-family: Times New Roman;
+	position: sticky;
 	}
 	
 .topnav img {
