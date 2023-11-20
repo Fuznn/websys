@@ -1,3 +1,6 @@
+body{
+	overflow: hidden;
+}
 .topnav {
 	overflow: hidden;
 	margin-left: 9%;
@@ -9,6 +12,7 @@
 	
 .topnav img {
 	float: left;
+	position: sticky;
 	}
 	
 .topnav a {
@@ -20,6 +24,7 @@
 	font-size: 17px;
 	margin-top: 1%;
 	margin-left: 4.5%;
+	position: sticky;
 		}
 			
 .topnav a:hover {
@@ -131,7 +136,10 @@
 	margin-left: 9%;
 	}
 .editorials{
-	margin-left: 2%;
+	margin-left: 3%;
+	flex-direction: row;
+	justify-content: space-evenly;
+	align-items: flex-start;
 }
 .imgsize{
 	aspect-ratio: 1 / 1;
@@ -142,4 +150,7 @@
 }
 .overtext{
 	position: absolute
+}
+@media screen (max-width:1000px) {
+
 }
