@@ -76,68 +76,39 @@ body{
 }
 
 
-/*HIGHLIGHTS*/
+/*HOME PAGE*/
 .boxed {
 	border: 3px solid green;
-	margin-top: 10%;
 	margin-left: 9%;
 	margin-right: 9%;
 	}
-			
-.box {
-	margin:1%
+
+.boxed {
+	display:block;
+	border:3px;
+	margin-top:1px;
+	margin-left:9%;
+	margin-right:9%;
 	}
 
 .textbox {
-	margin-top: 0;
+	margin-left: 1%;
 	}
 		
 .textbox h1{
 	font-size: 200%;
-	margin-top: 10%;
 	margin-left: 9%;
 	margin-bottom: -10%;
 	font-weight: bold;
-}
+	}
 
 .textbox p{
 	font-size: 110%;
 	font-family: Times New Roman;
-	margin-top: 10%;
 	margin-left: 9%;
 	}
 
-
-		 				
-.boxed {
-	border: 3px solid green;
-	margin-top: 10%;
-	margin-left: 9%;
-	margin-right: 9%;
-	}
-			
-.box {
-	margin:1%
-	}
-
-.textbox {
-	margin-top: 0;
-	}
-		
-.textbox h1{
-	font-size: 200%;
-	margin-top: 1%;
-	margin-left: 9%;
-	margin-bottom: -10%;
-	font-weight: bold;
-}
-
-.textbox p{
-	font-size: 110%;
-	font-family: Times New Roman;
-	margin-top: 10%;
-	margin-left: 9%;
-	}
+/*EDITORIALS WEBPAGE*/
 .editorials{
 	margin-left: 2%;
 	margin-left: 3%;
