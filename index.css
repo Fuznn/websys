@@ -198,6 +198,13 @@ body{
 	margin-left: 1%;
 	float:right;
 }
+.editimg2{
+	aspect-ratio: 1 / 1;
+	width: 40%;
+	color: white;
+	margin-left: 1%;
+	float:right;
+}
 .edittext{
 	font-size:130%;
 	margin-left: 1%;
