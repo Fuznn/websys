@@ -14,6 +14,7 @@ body{
 	width: 150%;
 	font-family: Times New Roman;
 	position: fixed;
+	z-index: 2000;
 	}
 	
 .topnav img {
@@ -152,6 +153,47 @@ body{
 }
 .pt4{
 	margin-left: 73%;
+}
+/*ACTUAL EDITORIALS*/
+.edittitle{
+	display: inline-block;
+	margin-top: 5%;
+	border: 5px none;
+  	width: 100%;
+  	padding: 10px;
+	z-index: 1;
+}
+
+.edittitle h1{
+	font-size: 250%; 
+	text-align: center;
+	color:#2C4C3B;
+	font-family: Arial;
+}
+.editimg{
+	aspect-ratio: 2048 / 1431;
+	width: 40%;
+	color: white;
+	margin-left: 1%;
+	float:right;
+}
+.edittext{
+	font-size:130%;
+	margin-left: 1%;
+	color:black;
+	line-height: 150%;
+	text-align:justify;
+}
+.backbutton{
+	margin-top: 140px;
+	margin-left: 1%;
+	position: absolute;
+	z-index:2;
+}
+.backbutton a{
+	color: #2C4C3B;
+	text-decoration: none;
+	font-size: 160%;
 }
 /*ABOUT PAGE*/
 
