@@ -155,16 +155,19 @@ body{
 
 .aboutbg{
 	display: block;
-	margin-top: -20%;
+	margin-top: -45%;
 	margin-left: -1%;
 	margin-right: -1%;
 	float: left;
 }
 
 .aboutabout{
-	text-align: justify;
+	text-align: center;
 	display: block;
 	margin-bottom: -5%;
+	color:white;
+	font-family: Arial;
+	font-size: 158%;	
 }
 @media screen (max-width:1000px) {
 
