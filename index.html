@@ -6,6 +6,7 @@
 	</head>
 
 	<body style="font-family:arial; color:#2C4C3B";>
+
 		<div class="topnav">
 			<img src="talarialogo.png" width="150px" height="75px">
 			<a href="index.html" class="active">HOME</a>
@@ -42,7 +43,20 @@
 		</div>
 
 		<img src="index.png" class="indexpic">
+
+		<div class="loader"></div>
 		
 	</body>
 
+	<script>
+		window.addEventListener("load", () => {
+ 	 		const loader = document.querySelector(".loader");
+
+  			loader.classList.add("loader--hidden");
+
+  			loader.addEventListener("transitionend", () => {
+    		document.body.removeChild(loader);
+ 			});
+		});
+	</script>
 </html>

@@ -19,7 +19,21 @@
 		<b><h1>KOLEKSYON NG LITRATO</h1>
 		<p>MULA SA MGA MAHUHUSAY NG PHOTOJOURNALISTS</p></b>
         	</div>
-
+		
+		<div class="loader"></div>
+		
 	</body>
+
+	<script>
+		window.addEventListener("load", () => {
+ 	 		const loader = document.querySelector(".loader");
+
+  			loader.classList.add("loader--hidden");
+
+  			loader.addEventListener("transitionend", () => {
+    		document.body.removeChild(loader);
+ 			});
+		});
+	</script>
 
 </html>

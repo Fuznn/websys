@@ -30,6 +30,21 @@
 			<a href="editorials/4.html"><img src="editorial 4.jpg" class="imgsize"></a>
 			<p class="pt4"><i><b>Luha na hindi<br> mapigil ng mata</b></i></p>
 		</div>
+
+		<div class="loader"></div>
+
 	</body>
+
+	<script>
+		window.addEventListener("load", () => {
+ 	 		const loader = document.querySelector(".loader");
+
+  			loader.classList.add("loader--hidden");
+
+  			loader.addEventListener("transitionend", () => {
+    		document.body.removeChild(loader);
+ 			});
+		});
+	</script>
 
 </html>
