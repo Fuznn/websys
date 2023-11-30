@@ -184,30 +184,45 @@ body{
   	padding: 10px;
 	z-index: 1;
 }
-
 .edittitle h1{
 	font-size: 250%; 
 	text-align: center;
 	color:#2C4C3B;
 	font-family: Arial;
 }
+.edittitle p{
+	font-size: 100%; 
+	text-align: center; 
+	margin: -10px; 
+	margin-bottom: 1px;
+	color:#2C4C3B;
+	font-family: Arial;
+}
+.illust{
+	text-align:center;
+	font-size: 100%;
+}
 .editimg{
 	aspect-ratio: 2048 / 1431;
 	width: 40%;
 	color: white;
-	margin-left: 1%;
-	float:right;
+	display:block;
+	margin-left:auto;
+	margin-right: auto;
+
 }
 .editimg2{
 	aspect-ratio: 1 / 1;
 	width: 40%;
 	color: white;
-	margin-left: 1%;
-	float:right;
+	display:block;
+	margin-left:auto;
+	margin-right: auto;
 }
 .edittext{
 	font-size:130%;
-	margin-left: 1%;
+	margin-left: 9%;
+	margin-right:9%;
 	color:black;
 	line-height: 150%;
 	text-align:justify;
