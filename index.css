@@ -271,6 +271,15 @@ body{
 	text-indent: 50px;
 	font-family: 'Helvetica', 'Arial', sans-serif;
 }
+.edittext1{
+	font-size: 16pt;
+	margin-left: 9%;
+	margin-right:9%;
+	color:black;
+	line-height: 150%;
+	text-align:justify;
+	font-family: 'Helvetica', 'Arial', sans-serif;
+}
 .backbutton{
 	margin-top: 140px;
 	margin-left: 1%;
@@ -431,8 +440,15 @@ body{
 	  transform: rotate(1turn);
 	}
   }  
+/*GALLERY*/
 .gall{
-	margin-left:2%;
+	margin-left:3%;
+}
+.imgsize2{
+	aspect-ratio: 4 / 3;
+	width: 24%;	
+	object-fit: cover;
+	color: white;
 }
 @media screen (max-width:1000px) {
 
