@@ -440,8 +440,15 @@ body{
 	  transform: rotate(1turn);
 	}
   }  
+/*GALLERY*/
 .gall{
-	margin-left:2%;
+	margin-left:3%;
+}
+.imgsize2{
+	aspect-ratio: 4 / 3;
+	width: 24%;	
+	object-fit: cover;
+	color: white;
 }
 @media screen (max-width:1000px) {
 
