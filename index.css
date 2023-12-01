@@ -381,7 +381,9 @@ body{
 	  transform: rotate(1turn);
 	}
   }  
-
+.gall{
+	margin-left:2%;
+}
 @media screen (max-width:1000px) {
 
 }
