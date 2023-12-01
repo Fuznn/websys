@@ -11,17 +11,17 @@ body{
 	margin-top: -10px;
 	margin-bottom:20%;
 	margin-left: -1%;
-	width: 150%;
+	width: 101%;
 	font-family: Georgia,Times,Times New Roman,serif; 
 	position: fixed;
-	z-index: 2000;
+	z-index: 1000;
 	}
 	
 .topnav img {
 	float: left;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	margin-left: 5%;
+	margin-left: 15%;
 	position: sticky;
 	}
 	
