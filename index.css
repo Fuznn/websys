@@ -12,7 +12,7 @@ body{
 	margin-bottom:20%;
 	margin-left: -1%;
 	width: 150%;
-	font-family: Times New Roman;
+	font-family: Georgia,Times,Times New Roman,serif; 
 	position: fixed;
 	z-index: 2000;
 	}
@@ -61,16 +61,16 @@ body{
 }
 
 .title h1{
-	font-size: 500%; 
+	font-size: 620%; 
 	text-align: center;
 	color:#2C4C3B;
 	font-family: Arial;
 }
 
 .title p{
-	font-size: 170%; 
+	font-size: 150%; 
 	text-align: center; 
-	margin: -70px; 
+	margin: -80px; 
 	margin-bottom: 50px;
 	color:#2C4C3B;
 	font-family: Arial;
@@ -79,18 +79,15 @@ body{
 /*HOME PAGE*/
 
 .boxed {
-	border: 3px solid green;
-	margin-left: 9%;
-	margin-right: 9%;
+	display:block;
+	border: 3px solid #2C4C3B;
+	width: 1196px;
+	margin: 0 auto;
 	}
 
-.boxed {
-	display:block;
-	border:3px;
-	margin-top:1px;
-	margin-left:9%;
-	margin-right:9%;
-	}
+.boxed img {
+	margin-bottom: -4px;
+}
 
 .boxed1 {
 	display:block;
@@ -101,7 +98,7 @@ body{
 	}
 
 .textbox {
-	margin-left: 1%;
+	margin-left: 2%;
 	margin-top: -3%;
 	}
 		
@@ -123,7 +120,7 @@ body{
 
 .text h1{
 	font-size:200%;
-	margin-top:0%;
+	margin-top:1%;
 	margin-left:9%;
 	margin-bottom:-10%;
 	font-weight:bold;
@@ -140,7 +137,26 @@ body{
 .indexpic{
 	width: 103%;
 	margin: -1%;
+	margin-top: 1%;
 	}
+
+.indexpictext {
+	width: 30%;
+	margin: 6%;
+	margin-top: 10%;
+	color: white;
+	font-size: 300%;
+	font-weight: bold;
+	position: absolute;
+}
+
+.indexpictext img{
+	margin-top: 10%;
+	width: 40px;
+}
+
+/*NEWS WEBPAGE*/
+
 
 /*EDITORIALS WEBPAGE*/
 
@@ -159,18 +175,19 @@ body{
 	margin-left: 1%;
 }
 .editorials p{
-	font-family: 'Times New Roman';
-	font-size: 300%;
+	font-family: Georgia,Times,Times New Roman,serif; 
+	font-size: 220%;
 	margin-top:-17%;
 	color:white;
 	position:absolute;
+	width: 20%;
 }
 .topedit{
 	font-size: 250%;
 	color: #2C4C3B;
 	font-family: 'arial';
 	margin-bottom: 8px;
-	margin-left: 63px;
+	margin-left: 60px;
 }
 .pt1{
 	margin-left: 2%;
@@ -189,7 +206,7 @@ body{
 
 .edittitle{
 	display: inline-block;
-	margin-top: 5%;
+	margin-top: 6%;
 	border: 5px none;
   	width: 100%;
   	padding: 10px;
@@ -204,8 +221,8 @@ body{
 .edittitle p{
 	font-size: 100%; 
 	text-align: center; 
-	margin: -10px; 
-	margin-bottom: 1px;
+	margin: -1%; 
+	font-style: italic;
 	color:#2C4C3B;
 	font-family: Arial;
 }
@@ -218,8 +235,10 @@ body{
 	width: 40%;
 	color: white;
 	display:block;
+	margin-top: 2%;
 	margin-left:auto;
 	margin-right: auto;
+	border-radius: 10px;
 
 }
 .editimg2{
@@ -227,16 +246,20 @@ body{
 	width: 40%;
 	color: white;
 	display:block;
+	margin-top: 2%;
 	margin-left:auto;
 	margin-right: auto;
+	border-radius: 10px;
 }
 .edittext{
-	font-size:130%;
+	font-size: 16pt;
 	margin-left: 9%;
 	margin-right:9%;
 	color:black;
 	line-height: 150%;
 	text-align:justify;
+	text-indent: 50px;
+	font-family: 'Helvetica', 'Arial', sans-serif;
 }
 .backbutton{
 	margin-top: 140px;
@@ -246,8 +269,7 @@ body{
 }
 .backbutton a{
 	color: #2C4C3B;
-	text-decoration: none;
-	font-size: 160%;
+	margin-left: 220%;
 }
 
 /*ABOUT PAGE*/
@@ -261,16 +283,16 @@ body{
 }
 
 .abouttitle h1{
-	font-size: 500%; 
+	font-size: 620%; 
 	text-align: center;
 	color:white;
 	font-family: Arial;
 }
 
 .abouttitle p{
-	font-size: 170%; 
+	font-size: 150%; 
 	text-align: center; 
-	margin: -70px; 
+	margin: -80px; 
 	margin-bottom: 50px;
 	color: white;
 	font-family: Arial;
@@ -284,6 +306,8 @@ body{
 }
 
 .aboutabout p{
+	width: 80%;
+	margin: auto;
 	text-align: center;
 	display: block;
 	margin-top: 22%;
