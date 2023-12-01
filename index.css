@@ -373,6 +373,14 @@ body{
 	animation: loading 0.75s ease infinite;
   }
   
+  /*NEWS*/
+  .news2 h1{
+	font-size:200%;
+	margin-top:1%;
+	margin-left:9%;
+	margin-bottom:-10%;
+	font-weight:bold;
+  }
   @keyframes loading {
 	from {
 	  transform: rotate(0turn);
