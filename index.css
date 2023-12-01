@@ -12,7 +12,7 @@ body{
 	margin-bottom:20%;
 	margin-left: -1%;
 	width: 150%;
-	font-family: Times New Roman;
+	font-family: Georgia,Times,Times New Roman,serif; 
 	position: fixed;
 	z-index: 2000;
 	}
@@ -132,6 +132,7 @@ body{
 .indexpic{
 	width: 103%;
 	margin: -1%;
+	margin-top: 1%;
 	}
 
 /*EDITORIALS WEBPAGE*/
@@ -151,11 +152,12 @@ body{
 	margin-left: 1%;
 }
 .editorials p{
-	font-family: 'Times New Roman';
-	font-size: 300%;
+	font-family: Georgia,Times,Times New Roman,serif; 
+	font-size: 220%;
 	margin-top:-17%;
 	color:white;
 	position:absolute;
+	width: 20%;
 }
 .topedit{
 	font-size: 250%;
@@ -181,7 +183,7 @@ body{
 
 .edittitle{
 	display: inline-block;
-	margin-top: 5%;
+	margin-top: 6%;
 	border: 5px none;
   	width: 100%;
   	padding: 10px;
@@ -196,8 +198,8 @@ body{
 .edittitle p{
 	font-size: 100%; 
 	text-align: center; 
-	margin: -10px; 
-	margin-bottom: 1px;
+	margin: -1%; 
+	font-style: italic;
 	color:#2C4C3B;
 	font-family: Arial;
 }
@@ -223,12 +225,14 @@ body{
 	margin-right: auto;
 }
 .edittext{
-	font-size:130%;
+	font-size: 16pt;
 	margin-left: 9%;
 	margin-right:9%;
 	color:black;
 	line-height: 150%;
 	text-align:justify;
+	text-indent: 50px;
+	font-family: 'Helvetica', 'Arial', sans-serif;
 }
 .backbutton{
 	margin-top: 140px;
@@ -238,8 +242,7 @@ body{
 }
 .backbutton a{
 	color: #2C4C3B;
-	text-decoration: none;
-	font-size: 160%;
+	margin-left: 220%;
 }
 
 /*ABOUT PAGE*/
