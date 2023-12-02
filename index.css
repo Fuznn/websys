@@ -167,7 +167,6 @@ body{
 
 .newsboxed1 img {
 	width: 700px;
-	height: 480px;
 	margin-bottom: -1%;
 	}
 
@@ -178,6 +177,64 @@ body{
 	margin-left: 2%;
 	margin-top: -11%;
 	}
+
+.newsboxed1 a{
+	text-decoration: none;
+}
+
+.newsboxed2 {
+	display: inline-block;
+	border: 3px solid #2C4C3B;
+	width: 470px;
+	margin-bottom: 1%;
+	margin-right: 9%;
+	float: right;
+	}
+
+.newsboxed2 img {
+	aspect-ratio: 4 / 1.9;
+	width: 470px;
+	margin-bottom: -1%;
+	}
+
+.newsboxed2 p {
+	color: #2C4C3B;
+	font-weight: bold;
+	font-size: 200%;
+	margin-left: 2%;
+	margin-top: -17%;
+	}
+
+.newsboxed2 a{
+	text-decoration: none;
+}
+
+.newsboxed3 {
+	display: inline-block;
+	border: 3px solid #2C4C3B;
+	width: 470px;
+	margin-top: -16.5%;
+	margin-right: 9%;
+	float: right;
+	}
+
+.newsboxed3 img {
+	aspect-ratio: 4 / 1.9;
+	width: 470px;
+	margin-bottom: -1%;
+	}
+
+.newsboxed3 p {
+	color: #2C4C3B;
+	font-weight: bold;
+	font-size: 200%;
+	margin-left: 2%;
+	margin-top: -17%;
+	}
+
+.newsboxed3 a{
+	text-decoration: none;
+}
 
 .newsboxed4 {
 	display:inline-block;
@@ -193,10 +250,17 @@ body{
 	margin-bottom: -1%;
 	}
 
+.newsboxed4 a{
+	text-decoration: none;
+}
+
 .newsboxed5 {
 	display:inline-block;
 	border: 3px solid #2C4C3B;
+	float: right;
 	width: 700px;
+	margin-top: 0%;
+	margin-right: 9%;
 	}
 
 .newsboxed5 img {
@@ -213,6 +277,10 @@ body{
 	margin-top: -7%;
 	position:relative;
 	}
+
+.newsboxed5 a{
+	text-decoration: none;
+}
 
 /*EDITORIALS WEBPAGE*/
 
