@@ -158,11 +158,17 @@ body{
 /*NEWS WEBPAGE*/
 
 .newsboxed1 {
-	display:block;
+	display:inline-block;
 	border: 3px solid #2C4C3B;
 	width: 700px;
 	margin-left: 9%;
 	margin-bottom: 1%;
+	}
+
+.newsboxed1 img {
+	width: 700px;
+	height: 480px;
+	margin-bottom: -1%;
 	}
 
 .newsboxed1 p {
@@ -174,16 +180,40 @@ body{
 	}
 
 .newsboxed4 {
-	display:block;
+	display:inline-block;
 	border: 3px solid #2C4C3B;
-	width: 400px;
+	width: 480px;
 	margin-left: 9%;
+	margin-right: 1%;
+	margin-bottom: -4px;
 	}
 
 .newsboxed4 img {
-	margin-bottom: -4px;
-	width: 400px;
-}
+	height: 480px;
+	margin-bottom: -1%;
+	}
+
+.newsboxed5 {
+	display:inline-block;
+	border: 3px solid #2C4C3B;
+	width: 700px;
+	}
+
+.newsboxed5 img {
+	width: 700px;
+	height: 475px;
+	margin-bottom: 
+	}
+
+.newsboxed5 p {
+	color: #2C4C3B;
+	font-weight: bold;
+	font-size: 200%;
+	margin-left: 2%;
+	margin-top: -7%;
+	position:relative;
+	}
+
 /*EDITORIALS WEBPAGE*/
 
 .editorials{
