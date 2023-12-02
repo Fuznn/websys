@@ -340,7 +340,8 @@ body{
 	display: inline-block;
 	margin-top: 6%;
 	border: 5px none;
-  	width: 100%;
+  	width: 80%;
+	margin-left: 11%;
   	padding: 10px;
 	z-index: 1;
 }
