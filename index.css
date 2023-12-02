@@ -531,6 +531,29 @@ body{
 	float: left;
 }
 
+.abouttext {
+	width: 50%;
+	margin: 6%;
+	margin-top: 292%;
+	color: white;
+	font-weight: bold;
+	position: absolute;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.abouttext h1{
+	font-size: 400%;
+}
+
+.abouttext p {
+	margin-top: 10%;
+	font-weight: normal;
+}
+
+.abouttext img{
+	width: 40px;
+}
+
 /*LOADING SCREEN*/
 
 .loader {
